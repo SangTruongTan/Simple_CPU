@@ -1,0 +1,4 @@
+// Write | Rst | Input | Output
+1_1_00001111_00001111           //Forward Input Value when Write = 1
+0_1_11110000_00001111           //Didn't forward Input Value when Write = 0
+1_0_11111111_00000000           //Reset Output notwithstanding Write value

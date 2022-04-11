@@ -1,0 +1,167 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1649667274
+!i10b 1
+!s100 _ZV1Tza7H0UiM6RM>jC:>0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF0[El80nCl^h74=bhCe[h0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/sim
+w1649648443
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/ALU.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/ALU.sv
+!i122 57
+L0 2 44
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1649667274.000000
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/ALU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/ALU.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R0
+R1
+!i10b 1
+!s100 6ObWXcE7H8hLF==Z1?a1k0
+R2
+I`T0DV1^7:NH>F0e7OnX:83
+R3
+S1
+R4
+w1649665783
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv
+!i122 58
+L0 1 53
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv|
+!i113 1
+R7
+R8
+n@a@l@u_tb
+vInputPort
+R0
+R1
+!i10b 1
+!s100 LiP591<12Qm8cBK]`e7]Y0
+R2
+IKAG;Dl;6S>DcHUEEgOnz93
+R3
+S1
+R4
+w1649666552
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv
+!i122 61
+Z9 L0 1 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv|
+!i113 1
+R7
+R8
+n@input@port
+vInputPort_tb
+R0
+!s110 1649667579
+!i10b 1
+!s100 LzmdI?9g?nnWR^X]b;oeQ1
+R2
+I4gYAd;=g_5TeD0KCW6Wd20
+R3
+S1
+R4
+w1649667577
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv
+!i122 67
+L0 1 48
+R5
+r1
+!s85 0
+31
+!s108 1649667579.000000
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv|
+!i113 1
+R7
+R8
+n@input@port_tb
+vMux4
+R0
+R1
+!i10b 1
+!s100 JSKITmDiMOXYdEZF0S?P=0
+R2
+I;KWUB65KIeU>ZkmXNEM6^1
+R3
+S1
+R4
+w1649664643
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv
+!i122 59
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv|
+!i113 1
+R7
+R8
+n@mux4
+vMux4_tb
+R0
+R1
+!i10b 1
+!s100 ]mCQ2Q]`]A0CT@KYZ<4YA1
+R2
+ILzQfGh<dhi2Va8Tz[a;zR0
+R3
+S1
+R4
+w1649665561
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv
+!i122 60
+L0 1 47
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv|
+!i113 1
+R7
+R8
+n@mux4_tb

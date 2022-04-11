@@ -1,0 +1,5 @@
+// Sel | Port 0 | Port 1 | Port 2 | Port 3 | Expected Out
+0_12_FF_BB_AA_12        //Sel 0
+1_12_FF_BB_AA_FF        //Sel 1
+2_12_FF_BB_AA_BB        //Sel 2
+3_12_FF_BB_AA_AA        //Sel 3

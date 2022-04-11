@@ -1,0 +1,855 @@
+# Compile of ALU.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ALU_tb
+# vsim work.ALU_tb 
+# Start time: 10:00:59 on Apr 11,2022
+# Loading sv_std.std
+# Loading work.ALU_tb
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/ALU_tb/ALUSel \
+sim:/ALU_tb/CF \
+sim:/ALU_tb/DataA \
+sim:/ALU_tb/DataB \
+sim:/ALU_tb/DataOut \
+sim:/ALU_tb/ZF
+run
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# Compile of ALU.sv failed with 2 errors.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ALU.sv failed with 1 errors.
+# Compile of ALU.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# Compile of ALU_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+run
+# Compile of ALU.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU
+run
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# ** Warning: (vsim-7) Failed to open readmem file "ALU_tb" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb
+add wave -position insertpoint  \
+sim:/ALU_tb/i
+add wave -position insertpoint  \
+sim:/ALU_tb/testVector
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: (vsim-7) Failed to open readmem file "ALU_tb" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb
+# Compile of ALU_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+run
+# ** Warning: (vsim-7) Failed to open readmem file "ALU_tb.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb
+# Compile of ALU_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+run
+# ** Warning: (vsim-7) Failed to open readmem file "ALU_tb_vector.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# Wrong Value
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# ** Warning: (vsim-7) Failed to open readmem file "./ALU_tb_vector.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+# Wrong Value
+# Compile of ALU.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU
+run
+# Compile of ALU_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+run
+# Compile of ALU_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# [time =                  20]Wrong Value: Instruction:0
+# Compile of ALU_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+run
+# [time =20]Wrong Value: Instruction:0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+restart
+run
+add wave -position insertpoint  \
+sim:/ALU_tb/clk
+restart
+run
+restart
+run
+# [time =300]Wrong Value: Instruction:7
+restart
+run
+# Compile of Mux4.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# Compile of Mux4_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of Mux4_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+vsim work.Mux4_tb
+# End time: 14:45:52 on Apr 11,2022, Elapsed time: 4:44:53
+# Errors: 0, Warnings: 1
+# vsim work.Mux4_tb 
+# Start time: 14:45:52 on Apr 11,2022
+# Loading sv_std.std
+# Loading work.Mux4_tb
+# Loading work.Mux4
+add wave -position insertpoint  \
+sim:/Mux4_tb/port_in_0 \
+sim:/Mux4_tb/port_in_1 \
+sim:/Mux4_tb/port_in_2 \
+sim:/Mux4_tb/port_in_3 \
+sim:/Mux4_tb/port_out \
+sim:/Mux4_tb/sel_port
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (21) in data on line 1 of file "C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb_vector.txt". (Max is 8.)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (11) in data on line 1 of file "C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb_vector.txt". (Max is 8.)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (11) in data on line 1 of file "C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb_vector.txt". (Max is 8.)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+# Compile of Mux4_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (11) in data on line 1 of file "C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb_vector.txt". (Max is 8.)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+# Compile of Mux4_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+run
+# [time =20]Wrong Value: Sel:0
+add wave -position insertpoint  \
+sim:/Mux4_tb/testVector
+restart
+run
+# [time =20]Wrong Value: Sel:0
+# Compile of Mux4_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_0'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_1'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_2'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_3'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_out'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+run
+vsim work.Mux4_tb
+# End time: 15:08:35 on Apr 11,2022, Elapsed time: 0:22:43
+# Errors: 0, Warnings: 6
+# vsim work.Mux4_tb 
+# Start time: 15:08:35 on Apr 11,2022
+# Loading sv_std.std
+# Loading work.Mux4_tb
+# Loading work.Mux4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_0'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_1'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_2'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_3'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_out'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+add wave -position insertpoint  \
+sim:/Mux4_tb/port_in_0 \
+sim:/Mux4_tb/port_in_1 \
+sim:/Mux4_tb/port_in_2 \
+sim:/Mux4_tb/port_in_3 \
+sim:/Mux4_tb/port_out \
+sim:/Mux4_tb/sel_port
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_0'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_1'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_2'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_3'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_out'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_0'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_1'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_2'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_in_3'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'port_out'. The port definition is at: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/MUX File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv Line: 18
+# Compile of Mux4.sv was successful.
+vsim work.Mux4_tb
+# End time: 15:10:57 on Apr 11,2022, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 7
+# vsim work.Mux4_tb 
+# Start time: 15:10:57 on Apr 11,2022
+# Loading sv_std.std
+# Loading work.Mux4_tb
+# Loading work.Mux4
+add wave -position insertpoint  \
+sim:/Mux4_tb/port_in_0 \
+sim:/Mux4_tb/port_in_1 \
+sim:/Mux4_tb/port_in_2 \
+sim:/Mux4_tb/port_in_3 \
+sim:/Mux4_tb/port_out \
+sim:/Mux4_tb/sel_port
+run
+restart
+run
+# Compile of InputPort.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Compile of ALU_tb.sv was successful.
+# Compile of Mux4_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+run
+# ** Warning: (vsim-7) Failed to open readmem file "../CPU/tb/Mux4_tb_vector.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+# Compile of ALU_tb.sv was successful.
+# Compile of Mux4_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+run
+# ** Warning: (vsim-7) Failed to open readmem file "./CPU/tb/Mux4_tb_vector.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+# Compile of Mux4_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+run
+# ** Warning: (vsim-7) Failed to open readmem file "/CPU/tb/Mux4_tb_vector.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+# Compile of Mux4_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+run
+# ** Warning: (vsim-7) Failed to open readmem file "Mux4_tb_vector.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of Mux4_tb.sv was successful.
+run
+# ** Warning: (vsim-7) Failed to open readmem file "Mux4_tb_vector.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv(27)
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb
+# Compile of ALU_tb.sv was successful.
+# Compile of Mux4_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+run
+# Compile of InputPort.sv was successful.
+# Compile of InputPort_tb.sv was successful.
+vsim work.InputPort_tb
+# End time: 15:45:05 on Apr 11,2022, Elapsed time: 0:34:08
+# Errors: 0, Warnings: 4
+# vsim work.InputPort_tb 
+# Start time: 15:45:05 on Apr 11,2022
+# Loading sv_std.std
+# Loading work.InputPort_tb
+# Loading work.InputPort
+add wave -position insertpoint  \
+sim:/InputPort_tb/Input \
+sim:/InputPort_tb/Output \
+sim:/InputPort_tb/Rst
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (18) in data on line 2 of file "C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb_vector.txt". (Max is 5.)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv(26)
+#    Time: 0 ps  Iteration: 0  Instance: /InputPort_tb
+restart
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (18) in data on line 2 of file "C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb_vector.txt". (Max is 5.)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv(26)
+#    Time: 0 ps  Iteration: 0  Instance: /InputPort_tb
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (18) in data on line 2 of file "C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb_vector.txt". (Max is 5.)    : C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv(26)
+#    Time: 0 ps  Iteration: 0  Instance: /InputPort_tb
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# [time =0]Wrong Value: Output:xx
+# [time =20]Wrong Value: Output:xx
+# [time =100]Wrong Value: Output:00
+# [time =140]Wrong Value: Output:00
+# [time =180]Wrong Value: Output:00
+# [time =220]Wrong Value: Output:00
+# [time =260]Wrong Value: Output:00
+# [time =300]Wrong Value: Output:00
+# [time =340]Wrong Value: Output:00
+# [time =380]Wrong Value: Output:00
+# [time =420]Wrong Value: Output:00
+# [time =460]Wrong Value: Output:00
+# [time =500]Wrong Value: Output:00
+# [time =540]Wrong Value: Output:00
+# [time =580]Wrong Value: Output:00
+# [time =620]Wrong Value: Output:00
+# [time =660]Wrong Value: Output:00
+# [time =700]Wrong Value: Output:00
+# [time =740]Wrong Value: Output:00
+# [time =780]Wrong Value: Output:00
+# [time =820]Wrong Value: Output:00
+# [time =860]Wrong Value: Output:00
+# [time =900]Wrong Value: Output:00
+# [time =940]Wrong Value: Output:00
+# [time =980]Wrong Value: Output:00
+add wave -position insertpoint  \
+sim:/InputPort_tb/Clk
+restart
+run
+# [time =0]Wrong Value: Output:xx
+# [time =20]Wrong Value: Output:xx
+# [time =100]Wrong Value: Output:00
+# [time =140]Wrong Value: Output:00
+# [time =180]Wrong Value: Output:00
+# [time =220]Wrong Value: Output:00
+# [time =260]Wrong Value: Output:00
+# [time =300]Wrong Value: Output:00
+# [time =340]Wrong Value: Output:00
+# [time =380]Wrong Value: Output:00
+# [time =420]Wrong Value: Output:00
+# [time =460]Wrong Value: Output:00
+# [time =500]Wrong Value: Output:00
+# [time =540]Wrong Value: Output:00
+# [time =580]Wrong Value: Output:00
+# [time =620]Wrong Value: Output:00
+# [time =660]Wrong Value: Output:00
+# [time =700]Wrong Value: Output:00
+# [time =740]Wrong Value: Output:00
+# [time =780]Wrong Value: Output:00
+# [time =820]Wrong Value: Output:00
+# [time =860]Wrong Value: Output:00
+# [time =900]Wrong Value: Output:00
+# [time =940]Wrong Value: Output:00
+# [time =980]Wrong Value: Output:00
+add wave -position insertpoint  \
+sim:/InputPort_tb/i
+restart
+run
+# [time =0]Wrong Value: Output:xx
+# [time =20]Wrong Value: Output:xx
+# [time =100]Wrong Value: Output:00
+# [time =140]Wrong Value: Output:00
+# [time =180]Wrong Value: Output:00
+# [time =220]Wrong Value: Output:00
+# [time =260]Wrong Value: Output:00
+# [time =300]Wrong Value: Output:00
+# [time =340]Wrong Value: Output:00
+# [time =380]Wrong Value: Output:00
+# [time =420]Wrong Value: Output:00
+# [time =460]Wrong Value: Output:00
+# [time =500]Wrong Value: Output:00
+# [time =540]Wrong Value: Output:00
+# [time =580]Wrong Value: Output:00
+# [time =620]Wrong Value: Output:00
+# [time =660]Wrong Value: Output:00
+# [time =700]Wrong Value: Output:00
+# [time =740]Wrong Value: Output:00
+# [time =780]Wrong Value: Output:00
+# [time =820]Wrong Value: Output:00
+# [time =860]Wrong Value: Output:00
+# [time =900]Wrong Value: Output:00
+# [time =940]Wrong Value: Output:00
+# [time =980]Wrong Value: Output:00
+# Compile of ALU.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# Compile of Mux4.sv was successful.
+# Compile of Mux4_tb.sv was successful.
+# Compile of InputPort.sv was successful.
+# Compile of InputPort_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+# Loading work.InputPort
+run
+# [time =10]Wrong Value: Output:xx
+# [time =30]Wrong Value: Output:00
+# [time =40]Wrong Value: Output:00
+# [time =50]Wrong Value: Output:00
+# [time =60]Wrong Value: Output:00
+# [time =70]Wrong Value: Output:00
+# [time =80]Wrong Value: Output:00
+# [time =90]Wrong Value: Output:00
+# [time =100]Wrong Value: Output:00
+# [time =110]Wrong Value: Output:00
+# [time =120]Wrong Value: Output:00
+# [time =130]Wrong Value: Output:00
+# [time =140]Wrong Value: Output:00
+# [time =150]Wrong Value: Output:00
+# [time =160]Wrong Value: Output:00
+# [time =170]Wrong Value: Output:00
+# [time =180]Wrong Value: Output:00
+# [time =190]Wrong Value: Output:00
+# [time =200]Wrong Value: Output:00
+# [time =210]Wrong Value: Output:00
+# [time =220]Wrong Value: Output:00
+# [time =230]Wrong Value: Output:00
+# [time =240]Wrong Value: Output:00
+# [time =250]Wrong Value: Output:00
+# [time =260]Wrong Value: Output:00
+# [time =270]Wrong Value: Output:00
+# [time =280]Wrong Value: Output:00
+# [time =290]Wrong Value: Output:00
+# [time =300]Wrong Value: Output:00
+# [time =310]Wrong Value: Output:00
+# [time =320]Wrong Value: Output:00
+# [time =330]Wrong Value: Output:00
+# [time =340]Wrong Value: Output:00
+# [time =350]Wrong Value: Output:00
+# [time =360]Wrong Value: Output:00
+# [time =370]Wrong Value: Output:00
+# [time =380]Wrong Value: Output:00
+# [time =390]Wrong Value: Output:00
+# [time =400]Wrong Value: Output:00
+# [time =410]Wrong Value: Output:00
+# [time =420]Wrong Value: Output:00
+# [time =430]Wrong Value: Output:00
+# [time =440]Wrong Value: Output:00
+# [time =450]Wrong Value: Output:00
+# [time =460]Wrong Value: Output:00
+# [time =470]Wrong Value: Output:00
+# [time =480]Wrong Value: Output:00
+# [time =490]Wrong Value: Output:00
+# [time =500]Wrong Value: Output:00
+# [time =510]Wrong Value: Output:00
+# [time =520]Wrong Value: Output:00
+# [time =530]Wrong Value: Output:00
+# [time =540]Wrong Value: Output:00
+# [time =550]Wrong Value: Output:00
+# [time =560]Wrong Value: Output:00
+# [time =570]Wrong Value: Output:00
+# [time =580]Wrong Value: Output:00
+# [time =590]Wrong Value: Output:00
+# [time =600]Wrong Value: Output:00
+# [time =610]Wrong Value: Output:00
+# [time =620]Wrong Value: Output:00
+# [time =630]Wrong Value: Output:00
+# [time =640]Wrong Value: Output:00
+# [time =650]Wrong Value: Output:00
+# [time =660]Wrong Value: Output:00
+# [time =670]Wrong Value: Output:00
+# [time =680]Wrong Value: Output:00
+# [time =690]Wrong Value: Output:00
+# [time =700]Wrong Value: Output:00
+# [time =710]Wrong Value: Output:00
+# [time =720]Wrong Value: Output:00
+# [time =730]Wrong Value: Output:00
+# [time =740]Wrong Value: Output:00
+# [time =750]Wrong Value: Output:00
+# [time =760]Wrong Value: Output:00
+# [time =770]Wrong Value: Output:00
+# [time =780]Wrong Value: Output:00
+# [time =790]Wrong Value: Output:00
+# [time =800]Wrong Value: Output:00
+# [time =810]Wrong Value: Output:00
+# [time =820]Wrong Value: Output:00
+# [time =830]Wrong Value: Output:00
+# [time =840]Wrong Value: Output:00
+# [time =850]Wrong Value: Output:00
+# [time =860]Wrong Value: Output:00
+# [time =870]Wrong Value: Output:00
+# [time =880]Wrong Value: Output:00
+# [time =890]Wrong Value: Output:00
+# [time =900]Wrong Value: Output:00
+# [time =910]Wrong Value: Output:00
+# [time =920]Wrong Value: Output:00
+# [time =930]Wrong Value: Output:00
+# [time =940]Wrong Value: Output:00
+# [time =950]Wrong Value: Output:00
+# [time =960]Wrong Value: Output:00
+# [time =970]Wrong Value: Output:00
+# [time =980]Wrong Value: Output:00
+# [time =990]Wrong Value: Output:00
+# [time =1000]Wrong Value: Output:00
+add wave -position insertpoint  \
+sim:/InputPort_tb/Write
+restart
+run
+# [time =10]Wrong Value: Output:xx
+# [time =30]Wrong Value: Output:00
+# [time =40]Wrong Value: Output:00
+# [time =50]Wrong Value: Output:00
+# [time =60]Wrong Value: Output:00
+# [time =70]Wrong Value: Output:00
+# [time =80]Wrong Value: Output:00
+# [time =90]Wrong Value: Output:00
+# [time =100]Wrong Value: Output:00
+# [time =110]Wrong Value: Output:00
+# [time =120]Wrong Value: Output:00
+# [time =130]Wrong Value: Output:00
+# [time =140]Wrong Value: Output:00
+# [time =150]Wrong Value: Output:00
+# [time =160]Wrong Value: Output:00
+# [time =170]Wrong Value: Output:00
+# [time =180]Wrong Value: Output:00
+# [time =190]Wrong Value: Output:00
+# [time =200]Wrong Value: Output:00
+# [time =210]Wrong Value: Output:00
+# [time =220]Wrong Value: Output:00
+# [time =230]Wrong Value: Output:00
+# [time =240]Wrong Value: Output:00
+# [time =250]Wrong Value: Output:00
+# [time =260]Wrong Value: Output:00
+# [time =270]Wrong Value: Output:00
+# [time =280]Wrong Value: Output:00
+# [time =290]Wrong Value: Output:00
+# [time =300]Wrong Value: Output:00
+# [time =310]Wrong Value: Output:00
+# [time =320]Wrong Value: Output:00
+# [time =330]Wrong Value: Output:00
+# [time =340]Wrong Value: Output:00
+# [time =350]Wrong Value: Output:00
+# [time =360]Wrong Value: Output:00
+# [time =370]Wrong Value: Output:00
+# [time =380]Wrong Value: Output:00
+# [time =390]Wrong Value: Output:00
+# [time =400]Wrong Value: Output:00
+# [time =410]Wrong Value: Output:00
+# [time =420]Wrong Value: Output:00
+# [time =430]Wrong Value: Output:00
+# [time =440]Wrong Value: Output:00
+# [time =450]Wrong Value: Output:00
+# [time =460]Wrong Value: Output:00
+# [time =470]Wrong Value: Output:00
+# [time =480]Wrong Value: Output:00
+# [time =490]Wrong Value: Output:00
+# [time =500]Wrong Value: Output:00
+# [time =510]Wrong Value: Output:00
+# [time =520]Wrong Value: Output:00
+# [time =530]Wrong Value: Output:00
+# [time =540]Wrong Value: Output:00
+# [time =550]Wrong Value: Output:00
+# [time =560]Wrong Value: Output:00
+# [time =570]Wrong Value: Output:00
+# [time =580]Wrong Value: Output:00
+# [time =590]Wrong Value: Output:00
+# [time =600]Wrong Value: Output:00
+# [time =610]Wrong Value: Output:00
+# [time =620]Wrong Value: Output:00
+# [time =630]Wrong Value: Output:00
+# [time =640]Wrong Value: Output:00
+# [time =650]Wrong Value: Output:00
+# [time =660]Wrong Value: Output:00
+# [time =670]Wrong Value: Output:00
+# [time =680]Wrong Value: Output:00
+# [time =690]Wrong Value: Output:00
+# [time =700]Wrong Value: Output:00
+# [time =710]Wrong Value: Output:00
+# [time =720]Wrong Value: Output:00
+# [time =730]Wrong Value: Output:00
+# [time =740]Wrong Value: Output:00
+# [time =750]Wrong Value: Output:00
+# [time =760]Wrong Value: Output:00
+# [time =770]Wrong Value: Output:00
+# [time =780]Wrong Value: Output:00
+# [time =790]Wrong Value: Output:00
+# [time =800]Wrong Value: Output:00
+# [time =810]Wrong Value: Output:00
+# [time =820]Wrong Value: Output:00
+# [time =830]Wrong Value: Output:00
+# [time =840]Wrong Value: Output:00
+# [time =850]Wrong Value: Output:00
+# [time =860]Wrong Value: Output:00
+# [time =870]Wrong Value: Output:00
+# [time =880]Wrong Value: Output:00
+# [time =890]Wrong Value: Output:00
+# [time =900]Wrong Value: Output:00
+# [time =910]Wrong Value: Output:00
+# [time =920]Wrong Value: Output:00
+# [time =930]Wrong Value: Output:00
+# [time =940]Wrong Value: Output:00
+# [time =950]Wrong Value: Output:00
+# [time =960]Wrong Value: Output:00
+# [time =970]Wrong Value: Output:00
+# [time =980]Wrong Value: Output:00
+# [time =990]Wrong Value: Output:00
+# [time =1000]Wrong Value: Output:00
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# [time =10]Wrong Value: Output:xx
+# [time =30]Wrong Value: Output:00
+# [time =40]Wrong Value: Output:00
+# [time =50]Wrong Value: Output:00
+# [time =60]Wrong Value: Output:00
+# [time =70]Wrong Value: Output:00
+# [time =80]Wrong Value: Output:00
+# [time =90]Wrong Value: Output:00
+# [time =100]Wrong Value: Output:00
+# [time =110]Wrong Value: Output:00
+# [time =120]Wrong Value: Output:00
+# [time =130]Wrong Value: Output:00
+# [time =140]Wrong Value: Output:00
+# [time =150]Wrong Value: Output:00
+# [time =160]Wrong Value: Output:00
+# [time =170]Wrong Value: Output:00
+# [time =180]Wrong Value: Output:00
+# [time =190]Wrong Value: Output:00
+# [time =200]Wrong Value: Output:00
+# [time =210]Wrong Value: Output:00
+# [time =220]Wrong Value: Output:00
+# [time =230]Wrong Value: Output:00
+# [time =240]Wrong Value: Output:00
+# [time =250]Wrong Value: Output:00
+# [time =260]Wrong Value: Output:00
+# [time =270]Wrong Value: Output:00
+# [time =280]Wrong Value: Output:00
+# [time =290]Wrong Value: Output:00
+# [time =300]Wrong Value: Output:00
+# [time =310]Wrong Value: Output:00
+# [time =320]Wrong Value: Output:00
+# [time =330]Wrong Value: Output:00
+# [time =340]Wrong Value: Output:00
+# [time =350]Wrong Value: Output:00
+# [time =360]Wrong Value: Output:00
+# [time =370]Wrong Value: Output:00
+# [time =380]Wrong Value: Output:00
+# [time =390]Wrong Value: Output:00
+# [time =400]Wrong Value: Output:00
+# [time =410]Wrong Value: Output:00
+# [time =420]Wrong Value: Output:00
+# [time =430]Wrong Value: Output:00
+# [time =440]Wrong Value: Output:00
+# [time =450]Wrong Value: Output:00
+# [time =460]Wrong Value: Output:00
+# [time =470]Wrong Value: Output:00
+# [time =480]Wrong Value: Output:00
+# [time =490]Wrong Value: Output:00
+# [time =500]Wrong Value: Output:00
+# [time =510]Wrong Value: Output:00
+# [time =520]Wrong Value: Output:00
+# [time =530]Wrong Value: Output:00
+# [time =540]Wrong Value: Output:00
+# [time =550]Wrong Value: Output:00
+# [time =560]Wrong Value: Output:00
+# [time =570]Wrong Value: Output:00
+# [time =580]Wrong Value: Output:00
+# [time =590]Wrong Value: Output:00
+# [time =600]Wrong Value: Output:00
+# [time =610]Wrong Value: Output:00
+# [time =620]Wrong Value: Output:00
+# [time =630]Wrong Value: Output:00
+# [time =640]Wrong Value: Output:00
+# [time =650]Wrong Value: Output:00
+# [time =660]Wrong Value: Output:00
+# [time =670]Wrong Value: Output:00
+# [time =680]Wrong Value: Output:00
+# [time =690]Wrong Value: Output:00
+# [time =700]Wrong Value: Output:00
+# [time =710]Wrong Value: Output:00
+# [time =720]Wrong Value: Output:00
+# [time =730]Wrong Value: Output:00
+# [time =740]Wrong Value: Output:00
+# [time =750]Wrong Value: Output:00
+# [time =760]Wrong Value: Output:00
+# [time =770]Wrong Value: Output:00
+# [time =780]Wrong Value: Output:00
+# [time =790]Wrong Value: Output:00
+# [time =800]Wrong Value: Output:00
+# [time =810]Wrong Value: Output:00
+# [time =820]Wrong Value: Output:00
+# [time =830]Wrong Value: Output:00
+# [time =840]Wrong Value: Output:00
+# [time =850]Wrong Value: Output:00
+# [time =860]Wrong Value: Output:00
+# [time =870]Wrong Value: Output:00
+# [time =880]Wrong Value: Output:00
+# [time =890]Wrong Value: Output:00
+# [time =900]Wrong Value: Output:00
+# [time =910]Wrong Value: Output:00
+# [time =920]Wrong Value: Output:00
+# [time =930]Wrong Value: Output:00
+# [time =940]Wrong Value: Output:00
+# [time =950]Wrong Value: Output:00
+# [time =960]Wrong Value: Output:00
+# [time =970]Wrong Value: Output:00
+# [time =980]Wrong Value: Output:00
+# [time =990]Wrong Value: Output:00
+# [time =1000]Wrong Value: Output:00
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+# Compile of InputPort_tb.sv failed with 1 errors.
+# Compile of InputPort_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InputPort_tb
+run
+add wave -position insertpoint  \
+sim:/InputPort_tb/EOutput
+restart
+run
+restart
+run
+# [time =30]Wrong Value: Output:00
+restart
+run
