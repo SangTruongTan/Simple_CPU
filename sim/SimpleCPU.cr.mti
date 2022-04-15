@@ -1,23 +1,30 @@
-C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv {1 {vlog -work work -sv -stats=none C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv
+C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Simple_CPU_tb
+
+Top level modules:
+	Simple_CPU_tb
+
+} {} {}} C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv {1 {vlog -work work -sv -stats=none C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module InputPort
 
 Top level modules:
 	InputPort
 
-} {} {}} C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv
+} {} {}} C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Control.sv {1 {vlog -work work -sv -stats=none C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Control.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Mux4_tb
+-- Compiling module Control
 
 Top level modules:
-	Mux4_tb
+	Control
 
-} {} {}} C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv
+} {} {}} C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/OutputPort.sv {1 {vlog -work work -sv -stats=none C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/OutputPort.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ALU_tb
+-- Compiling module OutputPort
 
 Top level modules:
-	ALU_tb
+	OutputPort
 
 } {} {}} C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv {1 {vlog -work work -sv -stats=none C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
