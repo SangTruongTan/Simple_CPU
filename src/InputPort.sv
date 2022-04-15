@@ -12,17 +12,18 @@ input [WIDTH_DATA_LENGTH - 1: 0] Input;
 input Write;
 input Clk;
 input Rst;
-output reg [WIDTH_DATA_LENGTH - 1:0] Output;
+reg [WIDTH_DATA_LENGTH - 1:0] TOutput;
+output [WIDTH_DATA_LENGTH - 1:0] Output;
 
 /****************** Always function ******************/
-always @ (posedge Clk) begin
-    if(Write == 1'b1 && Rst != 1'b0) begin
-        Output = Input;
+always @ (posedge Clk, negedge Rst) begin
+    if (Rst == 1'b0) begin
+        TOutput <= 8'b0;
+    end else if(Write == 1'b1) begin
+        TOutput <= Input;
     end
 end
 
-always @(negedge Rst) begin
-    Output = 8'b0;
-end
+assign Output = TOutput;
 
 endmodule
