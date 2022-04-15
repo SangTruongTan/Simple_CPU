@@ -1,0 +1,169 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OutputHundreds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputHundreds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputHundreds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputHundreds[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputHundreds[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputHundreds[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputDozens[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputDozens[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputDozens[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputDozens[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputDozens[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputDozens[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputDozens[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputUnits[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputUnits[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputUnits[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputUnits[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputUnits[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputUnits[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OutputUnits[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[7]",
+					"strict" : false
+				},
+				{
+					"name" : "OpcodeInput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OpcodeInput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OpcodeInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OpcodeInput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ExternalSwitch[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ExternalSwitch[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ExternalSwitch[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ExternalSwitch[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ExternalSwitch[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ExternalSwitch[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Execute",
+					"strict" : false
+				},
+				{
+					"name" : "Rstn",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
