@@ -11,7 +11,7 @@ cModel Technology
 dC:/intelFPGA/20.1
 vALU
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1650037332
+Z1 !s110 1650105096
 !i10b 1
 !s100 Jc4WHc4WZJAMeP6Q@eBO11
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,19 +22,45 @@ Z4 dC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/sim
 w1649951750
 8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/ALU.sv
 FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/ALU.sv
-!i122 0
+!i122 12
 L0 2 44
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1650037332.000000
+Z6 !s108 1650105096.000000
 !s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/ALU.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/ALU.sv|
 !i113 1
 Z7 o-work work -sv
 Z8 tCvgOpt 0
 n@a@l@u
+vALU_tb
+R0
+Z9 !s110 1650105097
+!i10b 1
+!s100 6ObWXcE7H8hLF==Z1?a1k0
+R2
+I`T0DV1^7:NH>F0e7OnX:83
+R3
+S1
+R4
+w1649665783
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv
+!i122 19
+L0 1 53
+R5
+r1
+!s85 0
+31
+Z10 !s108 1650105097.000000
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/ALU_tb.sv|
+!i113 1
+R7
+R8
+n@a@l@u_tb
 vControl
 R0
 R1
@@ -48,7 +74,7 @@ R4
 w1649951409
 8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Control.sv
 FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Control.sv
-!i122 1
+!i122 13
 L0 1 31
 R5
 r1
@@ -61,9 +87,35 @@ R6
 R7
 R8
 n@control
+vControl_tb
+R0
+R9
+!i10b 1
+!s100 ?kk]FW2<<h<JSWTFcjoQG3
+R2
+IEcPlZ<h]_9gGeQ[2DIaLc1
+R3
+S1
+R4
+w1649895388
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Control_tb.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Control_tb.sv
+!i122 20
+L0 1 37
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Control_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Control_tb.sv|
+!i113 1
+R7
+R8
+n@control_tb
 vInputPort
 R0
-Z9 !s110 1650037333
+R1
 !i10b 1
 !s100 3RIA1gh6MQ;nVB;AMJDBa3
 R2
@@ -74,7 +126,7 @@ R4
 w1649949775
 8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv
 FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/InputPort.sv
-!i122 2
+!i122 14
 L0 1 29
 R5
 r1
@@ -87,6 +139,32 @@ R6
 R7
 R8
 n@input@port
+vInputPort_tb
+R0
+R9
+!i10b 1
+!s100 LzmdI?9g?nnWR^X]b;oeQ1
+R2
+I4gYAd;=g_5TeD0KCW6Wd20
+R3
+S1
+R4
+w1649667577
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv
+!i122 21
+L0 1 48
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/InputPort_tb.sv|
+!i113 1
+R7
+R8
+n@input@port_tb
 vMux4
 R0
 R9
@@ -100,19 +178,45 @@ R4
 w1649664643
 8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv
 FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv
-!i122 3
+!i122 15
 L0 1 28
 R5
 r1
 !s85 0
 31
-Z10 !s108 1650037333.000000
+R10
 !s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Mux4.sv|
 !i113 1
 R7
 R8
 n@mux4
+vMux4_tb
+R0
+R9
+!i10b 1
+!s100 ]mCQ2Q]`]A0CT@KYZ<4YA1
+R2
+ILzQfGh<dhi2Va8Tz[a;zR0
+R3
+S1
+R4
+w1649665561
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv
+!i122 22
+L0 1 47
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Mux4_tb.sv|
+!i113 1
+R7
+R8
+n@mux4_tb
 vOutputPort
 R0
 R9
@@ -126,7 +230,7 @@ R4
 w1650035449
 8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/OutputPort.sv
 FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/OutputPort.sv
-!i122 4
+!i122 16
 L0 1 85
 R5
 r1
@@ -139,9 +243,35 @@ R10
 R7
 R8
 n@output@port
+vOutputPort_tb
+R0
+R9
+!i10b 1
+!s100 D81aaYlZY3V>jD4KLMW3g3
+R2
+IQ4mWTVVUkY?R_:zDA5i>Q1
+R3
+S1
+R4
+w1650033006
+8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/OutputPort_tb.sv
+FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/OutputPort_tb.sv
+!i122 23
+L0 1 40
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/OutputPort_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/OutputPort_tb.sv|
+!i113 1
+R7
+R8
+n@output@port_tb
 vSimple_CPU
 R0
-!s110 1650037481
+R9
 !i10b 1
 !s100 _JMo7mP9d>?mJSECX?6:>1
 R2
@@ -152,13 +282,13 @@ R4
 w1650037478
 8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Simple_CPU.sv
 FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Simple_CPU.sv
-!i122 11
+!i122 17
 L0 1 88
 R5
 r1
 !s85 0
 31
-!s108 1650037481.000000
+R10
 !s107 C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Simple_CPU.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/src/Simple_CPU.sv|
 !i113 1
@@ -178,7 +308,7 @@ R4
 w1650036962
 8C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv
 FC:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv
-!i122 6
+!i122 18
 L0 1 52
 R5
 r1

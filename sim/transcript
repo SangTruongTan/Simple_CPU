@@ -1,94 +1,6 @@
-# Compile of ALU.sv was successful.
-# Compile of Control.sv was successful.
-# Compile of InputPort.sv was successful.
-# Compile of Mux4.sv was successful.
-# Compile of OutputPort.sv was successful.
-# Compile of Simple_CPU.sv was successful.
-# Compile of Simple_CPU_tb.sv was successful.
-# 7 compiles, 0 failed with no errors.
 vsim work.Simple_CPU_tb
 # vsim work.Simple_CPU_tb 
-# Start time: 22:40:28 on Apr 15,2022
-# Loading sv_std.std
-# Loading work.Simple_CPU_tb
-# Loading work.Simple_CPU
-# Loading work.Control
-# Loading work.Mux4
-# Loading work.ALU
-# Loading work.InputPort
-# Loading work.OutputPort
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cpu'.  Expected 9, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /Simple_CPU_tb/cpu File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv Line: 24
-vsim work.Simple_CPU_tb
-# End time: 22:41:51 on Apr 15,2022, Elapsed time: 0:01:23
-# Errors: 0, Warnings: 7
-# vsim work.Simple_CPU_tb 
-# Start time: 22:41:51 on Apr 15,2022
-# Loading sv_std.std
-# Loading work.Simple_CPU_tb
-# Loading work.Simple_CPU
-# Loading work.Control
-# Loading work.Mux4
-# Loading work.ALU
-# Loading work.InputPort
-# Loading work.OutputPort
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cpu'.  Expected 9, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /Simple_CPU_tb/cpu File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv Line: 24
-# Compile of ALU.sv was successful.
-# Compile of Control.sv was successful.
-# Compile of InputPort.sv was successful.
-# Compile of Mux4.sv was successful.
-# Compile of OutputPort.sv was successful.
-# Compile of Simple_CPU.sv was successful.
-# Compile of Simple_CPU_tb.sv was successful.
-# 7 compiles, 0 failed with no errors.
-vsim work.Simple_CPU_tb
-# End time: 22:42:21 on Apr 15,2022, Elapsed time: 0:00:30
-# Errors: 0, Warnings: 3
-# vsim work.Simple_CPU_tb 
-# Start time: 22:42:21 on Apr 15,2022
-# Loading sv_std.std
-# Loading work.Simple_CPU_tb
-# Loading work.Simple_CPU
-# Loading work.Control
-# Loading work.Mux4
-# Loading work.ALU
-# Loading work.InputPort
-# Loading work.OutputPort
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cpu'.  Expected 9, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /Simple_CPU_tb/cpu File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv Line: 24
-# Compile of Simple_CPU.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.Simple_CPU
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cpu'.  Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /Simple_CPU_tb/cpu File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv Line: 24
-# ** Warning: (vsim-3722) C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv(24): [TFMPC] - Missing connection for port 'LED1'.
-# Compile of Simple_CPU.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.Simple_CPU
-# Compile of Simple_CPU.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.Simple_CPU
-# Compile of Simple_CPU.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.Simple_CPU
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cpu'.  Expected 9, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /Simple_CPU_tb/cpu File: C:/Users/sangt/OneDrive/Project/Job/RMIT/Lab2/CPU/tb/Simple_CPU_tb.sv Line: 24
-# Compile of Simple_CPU.sv was successful.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.Simple_CPU
-run
-run
-vsim work.Simple_CPU_tb
-# End time: 22:45:04 on Apr 15,2022, Elapsed time: 0:02:43
-# Errors: 0, Warnings: 1
-# vsim work.Simple_CPU_tb 
-# Start time: 22:45:04 on Apr 15,2022
+# Start time: 16:23:07 on Apr 16,2022
 # Loading sv_std.std
 # Loading work.Simple_CPU_tb
 # Loading work.Simple_CPU
@@ -102,11 +14,191 @@ sim:/Simple_CPU_tb/clk \
 sim:/Simple_CPU_tb/ELED \
 sim:/Simple_CPU_tb/Execute \
 sim:/Simple_CPU_tb/ExternalSwitch \
+sim:/Simple_CPU_tb/i \
 sim:/Simple_CPU_tb/LED \
 sim:/Simple_CPU_tb/OpcodeInput \
 sim:/Simple_CPU_tb/OutputDozens \
 sim:/Simple_CPU_tb/OutputHundreds \
 sim:/Simple_CPU_tb/OutputUnits \
-sim:/Simple_CPU_tb/Rstn
+sim:/Simple_CPU_tb/Rstn \
+sim:/Simple_CPU_tb/testVector
 run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# [time =460]Wrong Value: Opcode:3
+# [time =540]Wrong Value: Opcode:4
+# [time =580]Wrong Value: Opcode:6
+# [time =620]Wrong Value: Opcode:6
+# [time =700]Wrong Value: Opcode:4
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# [time =580]Wrong Value: Opcode:6
+# [time =620]Wrong Value: Opcode:6
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# [time =580]Wrong Value: Opcode:6
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# [time =1020]Wrong Value: Opcode:a
+# [time =1100]Wrong Value: Opcode:b
+# [time =1180]Wrong Value: Opcode:b
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of ALU.sv was successful.
+# Compile of Control.sv was successful.
+# Compile of InputPort.sv was successful.
+# Compile of Mux4.sv was successful.
+# Compile of OutputPort.sv was successful.
+# Compile of Simple_CPU.sv was successful.
+# Compile of Simple_CPU_tb.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# Compile of Control_tb.sv was successful.
+# Compile of InputPort_tb.sv was successful.
+# Compile of Mux4_tb.sv was successful.
+# Compile of OutputPort_tb.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim work.ALU_tb
+# End time: 17:31:46 on Apr 16,2022, Elapsed time: 1:08:39
+# Errors: 0, Warnings: 2
+# vsim work.ALU_tb 
+# Start time: 17:31:46 on Apr 16,2022
+# Loading sv_std.std
+# Loading work.ALU_tb
+# Loading work.ALU
+run
+add wave -position insertpoint  \
+sim:/ALU_tb/ALUSel \
+sim:/ALU_tb/CF \
+sim:/ALU_tb/clk \
+sim:/ALU_tb/DataA \
+sim:/ALU_tb/DataB \
+sim:/ALU_tb/DataOut \
+sim:/ALU_tb/ECF \
+sim:/ALU_tb/EDataOut \
+sim:/ALU_tb/EZF \
+sim:/ALU_tb/i \
+sim:/ALU_tb/testVector \
+sim:/ALU_tb/WIDTH_ALUSEL_LENGTH \
+sim:/ALU_tb/WIDTH_DATA_LENGTH \
+sim:/ALU_tb/WriteCZ \
+sim:/ALU_tb/ZF
+restart
+run
+vsim work.Control_tb
+# End time: 17:32:10 on Apr 16,2022, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim work.Control_tb 
+# Start time: 17:32:10 on Apr 16,2022
+# Loading sv_std.std
+# Loading work.Control_tb
+# Loading work.Control
+add wave -position insertpoint  \
+sim:/Control_tb/clk \
+sim:/Control_tb/ControlSignal \
+sim:/Control_tb/EControlSignal \
+sim:/Control_tb/i \
+sim:/Control_tb/Opcode \
+sim:/Control_tb/testVector \
+sim:/Control_tb/WIDTH_CONTROL_SIGNAL \
+sim:/Control_tb/WIDTH_OPCODE
+run
+vsim work.InputPort_tb
+# End time: 17:32:24 on Apr 16,2022, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+# vsim work.InputPort_tb 
+# Start time: 17:32:24 on Apr 16,2022
+# Loading sv_std.std
+# Loading work.InputPort_tb
+# Loading work.InputPort
+add wave -position insertpoint  \
+sim:/InputPort_tb/Output
+add wave -position insertpoint  \
+sim:/InputPort_tb/Clk \
+sim:/InputPort_tb/EOutput \
+sim:/InputPort_tb/i \
+sim:/InputPort_tb/Input \
+sim:/InputPort_tb/Output \
+sim:/InputPort_tb/Rst \
+sim:/InputPort_tb/TEST_FILE_LENGTH \
+sim:/InputPort_tb/testVector \
+sim:/InputPort_tb/WIDTH_DATA_LENGTH \
+sim:/InputPort_tb/Write
+run
+vsim work.Mux4_tb
+# End time: 17:32:43 on Apr 16,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# vsim work.Mux4_tb 
+# Start time: 17:32:43 on Apr 16,2022
+# Loading sv_std.std
+# Loading work.Mux4_tb
+# Loading work.Mux4
+add wave -position insertpoint  \
+sim:/Mux4_tb/port_in_0
+add wave -position insertpoint  \
+sim:/Mux4_tb/clk \
+sim:/Mux4_tb/Eport_out \
+sim:/Mux4_tb/i \
+sim:/Mux4_tb/port_in_0 \
+sim:/Mux4_tb/port_in_1 \
+sim:/Mux4_tb/port_in_2 \
+sim:/Mux4_tb/port_in_3 \
+sim:/Mux4_tb/port_out \
+sim:/Mux4_tb/sel_port \
+sim:/Mux4_tb/testVector \
+sim:/Mux4_tb/WIDTH_DATA_LENGTH
+run
+vsim work.OutputPort_tb
+# End time: 17:32:55 on Apr 16,2022, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 1
+# vsim work.OutputPort_tb 
+# Start time: 17:32:55 on Apr 16,2022
+# Loading sv_std.std
+# Loading work.OutputPort_tb
+# Loading work.OutputPort
+add wave -position insertpoint  \
+sim:/OutputPort_tb/WIDTH_DATA_LENGTH
+add wave -position insertpoint  \
+sim:/OutputPort_tb/Clk \
+sim:/OutputPort_tb/Input \
+sim:/OutputPort_tb/OutputDozens \
+sim:/OutputPort_tb/OutputHundreds \
+sim:/OutputPort_tb/OutputUnits \
+sim:/OutputPort_tb/Rst \
+sim:/OutputPort_tb/WIDTH_DATA_LENGTH \
+sim:/OutputPort_tb/WIDTH_OUTPUT_LENGTH \
+sim:/OutputPort_tb/Write
+run
+# End time: 17:33:13 on Apr 16,2022, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
